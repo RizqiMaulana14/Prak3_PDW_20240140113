@@ -9,16 +9,6 @@ body {
     background-color: #f9f9f9;
 }
 
-header {
-    border-bottom: 2px solid #ddd;
-    margin-bottom: 20px;
-}
-
-h1 {
-    color: #2c3e50;
-    margin-bottom: 5px;
-}
-
 .section {
     margin-bottom: 20px;
     background: white;
@@ -29,6 +19,32 @@ h1 {
 
 ul {
     padding-left: 20px;
+}
+
+.gambar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gambar img {
+    width: 31%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 31%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 footer {
